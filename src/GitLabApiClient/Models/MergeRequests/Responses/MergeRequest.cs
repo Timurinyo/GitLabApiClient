@@ -62,6 +62,9 @@ namespace GitLabApiClient.Models.MergeRequests.Responses
         [JsonProperty("closed_at")]
         public DateTime? ClosedAt { get; set; }
 
+        [JsonProperty("merged_at")]
+        public string MergedAt { get; set; }
+
         [JsonProperty("closed_by")]
         public ClosedBy ClosedBy { get; set; }
 
